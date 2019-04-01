@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://peytonwong.github.io/" target="_blank">
-    <img width="180" src="..\.vuepress\public\logo.png" alt="logo">
+    <img width="180" src="https://github.com/PeytonWong/vuepress_demo/blob/master/docs/.vuepress/public/logo.png" alt="logo">
   </a>
 </p>
 
