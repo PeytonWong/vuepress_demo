@@ -1,6 +1,6 @@
 module.exports = {
 
-  title: '一枚叫Peyton的测试小弟',
+  title: 'Peyton的测试心路历程',
   description: '记录入行心得',
   link: '/docs',
   host: '10.1.80.13',
@@ -25,6 +25,10 @@ module.exports = {
       {
         text: '精选文章',
         link: '/foo/'
+      },
+      {
+        text: '技术分享',
+        link: '/share/'
       },
       {
         text: '度娘',
@@ -58,10 +62,18 @@ module.exports = {
         title: '精选文章',
         collapsable: true,
         children: [
-          '',
-          'one',
-          'two',
           
+          'interview',
+          'testing process',
+          'Tester positioning',
+          
+        ]
+      }],
+      '/share/': [{
+        title: '技术分享',
+        collapsable: true,
+        children: [          
+          'E2E-test',                   
         ]
       }],
       sidebarDepth: 2,

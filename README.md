@@ -17,8 +17,7 @@
   <a href="https://discordapp.com/invite/HBherRA"><img src="https://img.shields.io/badge/Discord-join%20chat-738bd7.svg"
       alt="vuepress channel on Discord"></a>
 </p>
-<p class="action">
-  <a href="/foo/" class="nav-link action-button">点击阅读 →</a></p>
+
 </header>
 <div class="features">
   <div class="feature">
