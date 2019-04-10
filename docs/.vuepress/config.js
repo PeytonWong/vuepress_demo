@@ -64,6 +64,8 @@ module.exports = {
         children: [
           
           'interview',
+          'app-type',
+          'PAY_test',
           'testing process',
           'Tester positioning',
           
