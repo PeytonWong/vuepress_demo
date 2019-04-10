@@ -6,8 +6,12 @@ module.exports = {
   host: '10.1.80.13',
   port: '8999',
   head: [
-    ['link', { rel: 'shortcut icon', type: "image/x-icon", href: `./logo.png` }]
- ],
+    ['link', {
+      rel: 'shortcut icon',
+      type: "image/x-icon",
+      href: `./logo.png`
+    }]
+  ],
   themeConfig: {
     editLinks: true,
     displayAllHeaders: true,
@@ -15,7 +19,7 @@ module.exports = {
       ['link', {
         rel: 'icon',
         href: '/logo.png'
-      }],    
+      }],
     ],
     nav: [
       // {
@@ -62,20 +66,20 @@ module.exports = {
         title: '精选文章',
         collapsable: true,
         children: [
-          
+
           'interview',
           'app-type',
           'PAY_test',
           'testing process',
           'Tester positioning',
-          
+
         ]
       }],
       '/share/': [{
         title: '技术分享',
         collapsable: true,
-        children: [          
-          'E2E-test',                   
+        children: [
+          'E2E-test',
         ]
       }],
       sidebarDepth: 2,
