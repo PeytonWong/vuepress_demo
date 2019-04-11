@@ -13,6 +13,8 @@ module.exports = {
     }]
   ],
   themeConfig: {
+    search: true,
+    searchMaxSuggestions: 10,
     editLinks: true,
     displayAllHeaders: true,
     head: [
@@ -66,10 +68,11 @@ module.exports = {
         title: '精选文章',
         collapsable: true,
         children: [
-
+          'Network',
           'interview',
           'app-type',
           'PAY_test',
+          'random-test',
           'testing process',
           'Tester positioning',
 
@@ -80,6 +83,7 @@ module.exports = {
         collapsable: true,
         children: [
           'E2E-test',
+          'Apache-bench',
         ]
       }],
       sidebarDepth: 2,
@@ -98,5 +102,4 @@ module.exports = {
   //   //   'four'
   //   // ]
   // }
-
 }
