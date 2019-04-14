@@ -3,7 +3,7 @@ module.exports = {
   title: 'Peyton的测试心路历程',
   description: '记录入行心得',
   link: '/docs',
-  host: '10.1.80.13',
+  host: 'localhost',
   port: '8999',
   head: [
     ['link', {
@@ -71,11 +71,14 @@ module.exports = {
           'Network',
           'interview',
           'app-type',
+          'app_test-H5',
           'PAY_test',
           'random-test',
           'testing process',
           'Tester positioning',
-
+          'Basic_casedesign',
+          'linux_yum_mysqlinstall',
+          'system error',
         ]
       }],
       '/share/': [{
