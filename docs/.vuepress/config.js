@@ -1,6 +1,6 @@
 module.exports = {
 
-  title: 'Peyton的测试心路历程',
+  title: 'Peyton的测试Note',
   description: '记录入行心得',
   link: '/docs',
   host: 'localhost',
@@ -35,15 +35,11 @@ module.exports = {
       {
         text: '技术分享',
         link: '/share/'
-      },
+      },      
       {
-        text: '度娘',
-        link: 'https://www.baidu.com'
+        text: '友情链接',
+        link: 'https://q867427795.github.io/'
       },
-      {
-        text: '相关社区',
-        link: 'http://www.testclass.net/'
-      }
     ], //导航栏
 
     sidebar: {
@@ -78,7 +74,9 @@ module.exports = {
           'Tester positioning',
           'Basic_casedesign',
           'linux_yum_mysqlinstall',
+          'view-index-stored_procedure',
           'system error',
+
         ]
       }],
       '/share/': [{
