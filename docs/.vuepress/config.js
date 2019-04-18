@@ -65,15 +65,14 @@ module.exports = {
         collapsable: true,
         children: [
           'Network',
-          'interview',
+          /*'interview',*/
           'app-type',
           'app_test-H5',
           'PAY_test',
           'random-test',
           'testing process',
           'Tester positioning',
-          'Basic_casedesign',
-          'linux_yum_mysqlinstall',
+          'Basic_casedesign',          
           'view-index-stored_procedure',
           'system error',
 
@@ -85,6 +84,7 @@ module.exports = {
         children: [
           'E2E-test',
           'Apache-bench',
+          'linux_yum_mysqlinstall',
         ]
       }],
       sidebarDepth: 2,
